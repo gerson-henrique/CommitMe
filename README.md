@@ -79,8 +79,6 @@ Vamos criar um um *Alias* pra nosso script para podermos chamalo em qualquer lug
 
 Agora CommitMe Já está configurado em sua máquina, bons commits e bem vindo ao mundo semantico!
 
-### O que O script faz
-
 ### O que o script faz ?
 na versão atual  esse esse pequeno programa executa 3 comandos git de uma forma mais rapida e interativa!
 primeiro armazenamos o tipo da sua alteração e depois a sua descrição,  pegamos esses valores e passamos para o template do conventional commits, feito isso, passamos por um `git add .` ( que adiciona todas as alterações), seguido por um `git commit -m "{varivael}"` onde `{variavel}` é subistituido pelo valor formatado anteriormente, e por ultimo enviamos o commit para o github com `git push -f`.
