@@ -76,7 +76,9 @@ Vamos criar um um *Alias* pra nosso script para podermos chamalo em qualquer lug
 
 Agora CommitMe Já está configurado em sua máquina, bons commits e bem vindo ao mundo semantico!
 
-# Files
+### O que O script faz
+### quero refazer esse projeto
+### agradecimentos
 
 <p  align="center">
 <img src="./assets/giphy.gif"  alt="goodby Dodo">
