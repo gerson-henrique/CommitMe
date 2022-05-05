@@ -33,14 +33,13 @@ const getMessage = (tag) => {
         shell.exec('git add .');
         console.log('Mudanças Adicionadas [X][][]')
         shell.exec(`git commit -m "${tag} : ${lowerAnswer}"`);
-        console.log('Commit Criado [X][X][]')
+        console.log('Commit Criado  [X][X][]')
         shell.exec(`git push`);
         console.log('Commit Enviado [X][X][X]')
         console.log
       rl.close();
       }});
 }
-// esse comentario é um texte
 
 getTag();
 
