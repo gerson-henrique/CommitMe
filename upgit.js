@@ -1,4 +1,5 @@
 const readline = require('readline');
+const shell = require('shelljs');
 
 const rl = readline.createInterface({
   input: process.stdin,
@@ -6,6 +7,10 @@ const rl = readline.createInterface({
 });
 
 const getTag = () => {
+  if (!shell.which('git')) {
+    shell.echo('esse script requer git instalado em sua maquina, saindo..')
+    return 0;
+}
 
   rl.question("Qual o tipo de alteração efetuada?\n(digite help para ajuda) \n", function(answer) {
     const lowerAnswer = answer.toLowerCase();
@@ -25,10 +30,17 @@ const getMessage = (tag) => {
       getMessage(tag);
     } else {
       const lowerAnswer = res.toLowerCase()
-        console.log('deu bom')
+        shell.exec('git add .');
+        console.log('Mudanças Adicionadas [X][][]')
+        shell.exec(`git commit -m "${tag} : ${lowerAnswer}"`);
+        console.log('Commit Criado [X][X][]')
+        shell.exec(`git push`);
+        console.log('Commit Enviado [X][X][X]')
+        console.log
       rl.close();
       }});
 }
+// esse comentario é um texte
 
 getTag();
 
