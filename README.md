@@ -18,7 +18,7 @@ Já se viu em situações onde você queria voltar uma alteração, mas não sab
 <h4 align="center" > "Tentando entender o meu próprio histórico de Commits" </h4>
 
 
-Vamos começar a organizar essa bagunça?Essee repositório funciona como rodinhas de bicicleta na hora de desenvolver [commits semanticos](https://www.conventionalcommits.org/en/v1.0.0/)  tornando todo seu histórico de alterações mais legível e estruturado!
+Vamos começar a organizar essa bagunça? Esse repositório funciona como rodinhas de bicicleta na hora de desenvolver [commits semanticos](https://www.conventionalcommits.org/en/v1.0.0/)  tornando todo seu histórico de alterações mais legível e estruturado!
 
 ## Como usar o CommitMe?
 
@@ -80,6 +80,16 @@ Vamos criar um um *Alias* pra nosso script para podermos chamalo em qualquer lug
 Agora CommitMe Já está configurado em sua máquina, bons commits e bem vindo ao mundo semantico!
 
 ### O que O script faz
+
+### O que o script faz ?
+na versão atual  esse esse pequeno programa executa 3 comandos git de uma forma mais rapida e interativa!
+primeiro armazenamos o tipo da sua alteração e depois a sua descrição,  pegamos esses valores e passamos para o template do conventional commits, feito isso, passamos por um `git add .` ( que adiciona todas as alterações), seguido por um `git commit -m "{varivael}"` onde `{variavel}` é subistituido pelo valor formatado anteriormente, e por ultimo enviamos o commit para o github com `git push -f`.
+
+o programa não tem o comportamento esperado CASO
+* Git não esteja instalado
+* Não esteja em um repositorio
+* O repositorio não tenha uma origem
+(Os dois ultimos podem ser tratados em versões futuras)
 ### quero refazer esse projeto
 ### agradecimentos
 
