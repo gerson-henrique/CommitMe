@@ -30,13 +30,12 @@ const getMessage = (tag) => {
       getMessage(tag);
     } else {
       const lowerAnswer = res.toLowerCase()
+      console.log('Adicionando Mudanças [X][][]')
         shell.exec('git add .');
-        console.log('Mudanças Adicionadas [X][][]')
+        console.log('Criando Commit  [X][X][]')
         shell.exec(`git commit -m "${tag} : ${lowerAnswer}"`);
-        console.log('Commit Criado  [X][X][]')
+        console.log('Enviando Commit [X][X][X]')
         shell.exec(`git push -f`);
-        console.log('Commit Enviado [X][X][X]')
-        console.log
       rl.close();
       }});
 }
