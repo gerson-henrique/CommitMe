@@ -88,8 +88,21 @@ o programa não tem o comportamento esperado CASO
 * Não esteja em um repositorio
 * O repositorio não tenha uma origem
 (Os dois ultimos podem ser tratados em versões futuras)
-### quero refazer esse projeto
-### agradecimentos
+
+### Quero fazer parte desse projeto
+
+
+Esse projeto é muito simples, e pode servir de porta de entrada para muitos programadores nas contribuições a softwares abertos, se sinta mais do que convidado a forkear esse projeto, e fazer dele seu sandbox e claro, se quiser que todos tenham acesso a uma nova funcionalidade do script desenvolvida inteiramente por você, é só abrir uma PR!
+
+
+
+
+O que estudar para alterar uma parte especifica projeto ?
+* [Node.js](https://nodejs.org/en/) para alterar ou incluir o uso de bibliotecas
+* [ReadLine](https://node.readthedocs.io/en/latest/api/readline/) para trabalhar com data recebida pelo terminal
+* [Shell.js](http://adilapapaya.com/docs/shelljs/) para controle de terminal 
+* Correções de ortografia e traduções também são sempre bem vindas!
+
 
 <p  align="center">
 <img src="./assets/giphy.gif"  alt="goodby Dodo">
