@@ -11,6 +11,8 @@ Já se viu em situações onde você queria voltar uma alteração mas não sabi
     Finalizando projeto Não tinha ido antes mas agora foi
     Finalizando projeto v4
 
+![creepy dodo](./assets/ezgif-1-8783a798b8.gif)
+
   Vamos começar a organizar essa bagunça ? esse repositorio funciona como rodinhas de bicicleta na hora de desenvolver [commits semanticos](https://www.conventionalcommits.org/en/v1.0.0/)  tornando todo seu historico de alterações mais legivel e estruturado!
 
 ## Como usar o CommitMe ?
@@ -18,6 +20,9 @@ Já se viu em situações onde você queria voltar uma alteração mas não sabi
 é muito simples usar esse script , basta clonar esse repositorio, uma vez que o clone está feito basta usar o node para executar a aplicação  
 
 
+![happy dodo](./assets/hmmm%20intresting.gif)
 
 # Files
 
+
+![goodby dodo](./assets/giphy.gif)
