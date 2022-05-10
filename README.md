@@ -18,7 +18,7 @@ Já se viu em situações onde você queria voltar uma alteração, mas não sab
 <h4 align="center" > "Tentando entender o meu próprio histórico de Commits" </h4>
 
 
-Vamos começar a organizar essa bagunça? Esse repositório funciona como rodinhas de bicicleta na hora de desenvolver [commits semanticos](https://www.conventionalcommits.org/en/v1.0.0/)  tornando todo seu histórico de alterações mais legível e estruturado!
+Vamos começar a organizar essa bagunça? Esse repositório funciona como rodinhas de bicicleta na hora de desenvolver [commits semânticos](https://www.conventionalcommits.org/pt-br/v1.0.0/)  tornando todo seu histórico de alterações mais legível e estruturado!
 
 ## Como usar o CommitMe?
 
